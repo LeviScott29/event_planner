@@ -16,7 +16,7 @@ const EventPlanner = () => {
                   Get Started  
                 </button>
                 </section>  
-            <section className="event_categories">
+            <section className="events_categories">
                 <ul>
                     <h2>Social Events: </h2>
                     <li>Birthday</li>
@@ -37,14 +37,56 @@ const EventPlanner = () => {
                 </ul>
                 <ul>
                     <h2>Community Events: </h2>
-                    <li></li>
+                    <li>Fundraising</li>
+                    <li>Charity</li>
+                    <li>Volunteer</li>
+                    <li>Neighborhood</li>
+                    <li>Community</li>
+                    <li>Cultural</li>
                 </ul>
                 </section>
             <section clasName="features">
+            <h2>Features</h2>
+                <ul>
+                    <li>Easy event creation and management</li>
+                    <li>Customizable event templates</li>
+                    <li>Guest list management</li>
+                    <li>Real-time collaboration</li>
+                    <li>Reminders and notifications</li>
+                </ul>
                 </section>
             <section className="testimonials" >
+            <h2>Testimonials</h2>
+    <div className="testimonial">
+       <p>"Event Planner made organizing my wedding a breeze. Highly recommended!"</p>
+       <p className="author">- Emily Johnson</p>
+      </div>
+      <div className="testimonial">
+                    <p>"Event Planner made organizing my wedding a breeze. Highly recommended!"</p>
+                    <p className="author">- Emily Johnson</p>
+                </div>
+                <div className="testimonial">
+                    <p>"I use Event Planner for all my corporate events. It saves me so much time and effort!"</p>
+                    <p className="author">- John Smith</p>
+                </div>
+                <div className="testimonial">
+                    <p>"Event Planner made organizing my wedding a breeze. Highly recommended!"</p>
+                    <p className="author">- Emily Johnson</p>
+                </div>
+                <div className="testimonial">
+                    <p>"I use Event Planner for all my corporate events. It saves me so much time and effort!"</p>
+                    <p className="author">- John Smith</p>
+                </div>
                 </section>
             <section className="contact">
+                <h2>Contact Us</h2>
+                <form>
+                    <input type="text" placeholder="Name"/>
+                    <input type="email" placeholder="Email"/>
+                    <textarea placeholder="Message"></textarea>
+                    <button className="submit-button">Send</button>
+
+                </form>
                 </section>     
          </div>
     );
